@@ -14,7 +14,7 @@ var emojis = Object.keys(emojiDictionary);
 
 export default function App() {
   const [emoji, setEmoji] = useState("");
-  const [meaning, setMeaning] = useState("your meaning is");
+  const [meaning, setMeaning] = useState("your meaning will be shown here");
 
   function changeHandler(event) {
     var inputEmoji = event.target.value;
